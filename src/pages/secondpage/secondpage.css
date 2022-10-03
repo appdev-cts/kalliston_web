@@ -1,0 +1,199 @@
+.sp {
+    margin: 5rem 5rem 1rem 5rem;
+    padding: 5rem 5rem 1rem 5rem;
+}
+.sp__container {
+    width: 100%;
+    padding: 3rem;
+}
+
+.sp__heading-h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+.sp__exerices-heading__h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--gold-color);
+}
+
+.sp__week {
+    margin: 1rem 0;
+}
+
+.sp__week-h3{
+    color: var(--color-white);
+    padding: 0.5rem 0;
+}
+
+.sp__equipment-heading {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.sp__equipment-heading__h1 {
+    color: var(--gold-color);
+    padding: 0.5rem 0;
+}
+
+.sp__equipment-heading__p {
+    background: rgba(138, 111, 72, 0.3);
+    opacity: 0.3;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-radius: 30px;
+    color: rgb(255, 175, 62);
+    font-weight: 500;
+}
+
+.sp__exercises-list-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sp__exercises-ul {
+    display: flex;
+    align-items: center;
+}
+
+.sp__exercises-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sp__exercises-list__li {
+    padding: 0.5rem 1.5rem 0.5rem 7rem;
+    margin: 1rem 0;
+    border-radius: 3rem;
+    width: 100%;
+    background: rgba(61, 61, 61, 0.3);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sp__exercise-list__a {
+    display: flex;
+    /* justify-content: space-between; */
+    color: var(--color-white);
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.sp__exercises-list__p {
+    display: none ;
+    color: var(--color-white);
+}
+
+.sp__exercises-list__span-number {
+    padding: 1.5rem;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--gold-color);
+    color: var(--color-white);
+    margin: 10px;
+}
+
+.sp__exercises-list__span {
+    background-color: var(--color-white);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+}
+
+.icon {
+    font-size: 3rem;
+    display: flex;
+    align-items: flex-end;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.sp__exercise-list__span-number__div {
+    display: flex;
+    align-items: center;
+}
+
+.sp__exercises-list-btn {
+    display: flex;
+    align-items: center;
+}
+
+.sp__exercises-list__number {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+@media screen and (max-width: 992px) {
+    .sp {
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        padding: 5rem 0rem 0rem 0rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sp {
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        padding: 5rem 0rem 0rem 0rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sp__container {
+        padding: 0.5rem;
+    }
+
+    .sp {
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        padding: 5rem 0rem 0rem 0rem;
+    }
+
+    h1.sp__heading-h1 {
+        font-size: 2rem;
+    }
+
+    .sp__exercises-list__span {
+        width: 40px;
+        height: 40px;
+        left: 7px;
+        top: 23px;
+    }
+
+    a.sp__exercise-list__a {
+        font-size: 13px;
+    }
+    li.sp__exercises-list__li {
+        padding: 0.5rem 0.5rem 0.5rem 3rem;
+        flex-direction: column;
+    }
+
+    .sp__exercises-list__span-number {
+        padding: 1rem;
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}

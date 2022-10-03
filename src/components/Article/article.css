@@ -1,0 +1,63 @@
+.article__text {
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-white);
+    margin: 5rem 5rem 1rem 5rem;
+    padding: 5rem 5rem 1rem 5rem;
+}
+
+.article__text-container {
+    width: 100%;
+    padding: 3rem;
+}
+
+.article__text-h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.article__text-p{
+    margin: 1rem 0;
+    line-height: 37px;
+}
+
+.article__text-readmore {
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 992px) {
+    .article__text {
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        padding: 5rem 0.5rem 0.5rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1.article__text-h1 {
+        font-size: 2rem;
+    }
+
+    .article__text {
+        margin: 5rem 0.5rem 0.5rem 0.5rem;
+        padding: 5rem 0.5rem 0.5rem 0.5rem;
+    }
+    .weekcard__head {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    h1.article__text-h1 {
+            font-size: 1rem;
+    }
+
+    .article__text-container {
+        width: 100%;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,82 @@
+.cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.weekcard__div {
+    padding: 1rem;
+    background: rgba(61, 61, 61, 0.3);
+    flex: 1;
+    border-radius: 20px;
+    position: relative;
+}
+
+h2.weekcard__head-text {
+    padding: 1.5rem 0;
+}
+
+ul.weekcard__ul {
+    padding: 0rem 1rem;
+}
+
+.weekcard__li {
+    padding: 5px 0;
+    position: relative;
+}
+
+ul.weekcard__ul :before {
+    position: absolute;
+    content: "•";
+    color: rgb(255, 225, 143);
+    left: -15px;
+}
+
+ul.weekcard__ul :not(:last-child):after {
+    position: absolute;
+    content: "";
+    height: 28px;
+    border: 1px solid rgb(255, 225, 143);
+    width: 0px;
+    color: rgb(255, 225, 143);
+    left: -13px;
+    top: 24px;
+}
+
+
+a.weekcard__li-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .article__text-h1 {
+        font-size: 2rem;
+    }
+
+    .article__text {
+            margin: 1rem 1rem 1rem 1rem;
+            padding: 7rem 0rem 0rem 0rem;
+    }
+
+    .weekcard__head {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .weekcard__head {
+        display: flex;
+        flex-direction: column;
+    }
+}
